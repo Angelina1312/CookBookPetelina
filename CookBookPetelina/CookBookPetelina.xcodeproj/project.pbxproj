@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0A56D827CE608D007F4972 /* CookBookPetelina WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3F0A56D727CE608D007F4972 /* CookBookPetelina WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F0A56DE27CE608D007F4972 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0A56DC27CE608D007F4972 /* Interface.storyboard */; };
+		3F0A56E027CE608E007F4972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0A56DF27CE608E007F4972 /* Assets.xcassets */; };
+		3F0A56E627CE608E007F4972 /* CookBookPetelina WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F0A56E527CE608E007F4972 /* CookBookPetelina WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F0A56EB27CE608E007F4972 /* TableRecipesIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A56EA27CE608E007F4972 /* TableRecipesIC.swift */; };
+		3F0A56ED27CE608E007F4972 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A56EC27CE608E007F4972 /* ExtensionDelegate.swift */; };
+		3F0A56EF27CE608E007F4972 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A56EE27CE608E007F4972 /* NotificationController.swift */; };
+		3F0A56F127CE608E007F4972 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A56F027CE608E007F4972 /* ComplicationController.swift */; };
+		3F0A56F327CE608F007F4972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0A56F227CE608F007F4972 /* Assets.xcassets */; };
+		3F3CB32B27D2505C00BB876E /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CB32A27D2505C00BB876E /* Recipes.swift */; };
+		3FC49B5427E1BAC9005F300C /* DetailRecipeIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC49B5327E1BAC9005F300C /* DetailRecipeIC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F0A56D927CE608D007F4972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0A56CD27CE608C007F4972 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0A56D627CE608D007F4972;
+			remoteInfo = "CookBookPetelina WatchKit App";
+		};
+		3F0A56E727CE608E007F4972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0A56CD27CE608C007F4972 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0A56E427CE608E007F4972;
+			remoteInfo = "CookBookPetelina WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F0A56FB27CE608F007F4972 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3F0A56E627CE608E007F4972 /* CookBookPetelina WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0A56FF27CE608F007F4972 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3F0A56D827CE608D007F4972 /* CookBookPetelina WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F0A56D327CE608C007F4972 /* CookBookPetelina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookBookPetelina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0A56D727CE608D007F4972 /* CookBookPetelina WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CookBookPetelina WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0A56DD27CE608D007F4972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3F0A56DF27CE608E007F4972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0A56E527CE608E007F4972 /* CookBookPetelina WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CookBookPetelina WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0A56EA27CE608E007F4972 /* TableRecipesIC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRecipesIC.swift; sourceTree = "<group>"; };
+		3F0A56EC27CE608E007F4972 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3F0A56EE27CE608E007F4972 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3F0A56F027CE608E007F4972 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3F0A56F227CE608F007F4972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0A56F427CE608F007F4972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0A56F527CE608F007F4972 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3F3CB32927D24F1A00BB876E /* RowTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowTable.swift; sourceTree = "<group>"; };
+		3F3CB32A27D2505C00BB876E /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
+		3FC49B5327E1BAC9005F300C /* DetailRecipeIC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRecipeIC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0A56E227CE608E007F4972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0A56CC27CE608C007F4972 = {
+			isa = PBXGroup;
+			children = (
+				3F0A56DB27CE608D007F4972 /* CookBookPetelina WatchKit App */,
+				3F0A56E927CE608E007F4972 /* CookBookPetelina WatchKit Extension */,
+				3F0A56D427CE608C007F4972 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F0A56D427CE608C007F4972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0A56D327CE608C007F4972 /* CookBookPetelina.app */,
+				3F0A56D727CE608D007F4972 /* CookBookPetelina WatchKit App.app */,
+				3F0A56E527CE608E007F4972 /* CookBookPetelina WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0A56DB27CE608D007F4972 /* CookBookPetelina WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3F0A56DC27CE608D007F4972 /* Interface.storyboard */,
+				3FC49B5327E1BAC9005F300C /* DetailRecipeIC.swift */,
+				3F3CB32A27D2505C00BB876E /* Recipes.swift */,
+				3F3CB32927D24F1A00BB876E /* RowTable.swift */,
+				3F0A56DF27CE608E007F4972 /* Assets.xcassets */,
+			);
+			path = "CookBookPetelina WatchKit App";
+			sourceTree = "<group>";
+		};
+		3F0A56E927CE608E007F4972 /* CookBookPetelina WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3F0A56EA27CE608E007F4972 /* TableRecipesIC.swift */,
+				3F0A56EC27CE608E007F4972 /* ExtensionDelegate.swift */,
+				3F0A56EE27CE608E007F4972 /* NotificationController.swift */,
+				3F0A56F027CE608E007F4972 /* ComplicationController.swift */,
+				3F0A56F227CE608F007F4972 /* Assets.xcassets */,
+				3F0A56F427CE608F007F4972 /* Info.plist */,
+				3F0A56F527CE608F007F4972 /* PushNotificationPayload.apns */,
+			);
+			path = "CookBookPetelina WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0A56D227CE608C007F4972 /* CookBookPetelina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0A570027CE608F007F4972 /* Build configuration list for PBXNativeTarget "CookBookPetelina" */;
+			buildPhases = (
+				3F0A56D127CE608C007F4972 /* Resources */,
+				3F0A56FF27CE608F007F4972 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0A56DA27CE608D007F4972 /* PBXTargetDependency */,
+			);
+			name = CookBookPetelina;
+			productName = CookBookPetelina;
+			productReference = 3F0A56D327CE608C007F4972 /* CookBookPetelina.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3F0A56D627CE608D007F4972 /* CookBookPetelina WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0A56FC27CE608F007F4972 /* Build configuration list for PBXNativeTarget "CookBookPetelina WatchKit App" */;
+			buildPhases = (
+				3F0A56D527CE608D007F4972 /* Resources */,
+				3F0A56FB27CE608F007F4972 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0A56E827CE608E007F4972 /* PBXTargetDependency */,
+			);
+			name = "CookBookPetelina WatchKit App";
+			productName = "CookBookPetelina WatchKit App";
+			productReference = 3F0A56D727CE608D007F4972 /* CookBookPetelina WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3F0A56E427CE608E007F4972 /* CookBookPetelina WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0A56F827CE608F007F4972 /* Build configuration list for PBXNativeTarget "CookBookPetelina WatchKit Extension" */;
+			buildPhases = (
+				3F0A56E127CE608E007F4972 /* Sources */,
+				3F0A56E227CE608E007F4972 /* Frameworks */,
+				3F0A56E327CE608E007F4972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CookBookPetelina WatchKit Extension";
+			productName = "CookBookPetelina WatchKit Extension";
+			productReference = 3F0A56E527CE608E007F4972 /* CookBookPetelina WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0A56CD27CE608C007F4972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3F0A56D227CE608C007F4972 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3F0A56D627CE608D007F4972 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3F0A56E427CE608E007F4972 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F0A56D027CE608C007F4972 /* Build configuration list for PBXProject "CookBookPetelina" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F0A56CC27CE608C007F4972;
+			productRefGroup = 3F0A56D427CE608C007F4972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0A56D227CE608C007F4972 /* CookBookPetelina */,
+				3F0A56D627CE608D007F4972 /* CookBookPetelina WatchKit App */,
+				3F0A56E427CE608E007F4972 /* CookBookPetelina WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F0A56D127CE608C007F4972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0A56D527CE608D007F4972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0A56E027CE608E007F4972 /* Assets.xcassets in Resources */,
+				3F0A56DE27CE608D007F4972 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0A56E327CE608E007F4972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0A56F327CE608F007F4972 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0A56E127CE608E007F4972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC49B5427E1BAC9005F300C /* DetailRecipeIC.swift in Sources */,
+				3F3CB32B27D2505C00BB876E /* Recipes.swift in Sources */,
+				3F0A56EF27CE608E007F4972 /* NotificationController.swift in Sources */,
+				3F0A56F127CE608E007F4972 /* ComplicationController.swift in Sources */,
+				3F0A56ED27CE608E007F4972 /* ExtensionDelegate.swift in Sources */,
+				3F0A56EB27CE608E007F4972 /* TableRecipesIC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F0A56DA27CE608D007F4972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0A56D627CE608D007F4972 /* CookBookPetelina WatchKit App */;
+			targetProxy = 3F0A56D927CE608D007F4972 /* PBXContainerItemProxy */;
+		};
+		3F0A56E827CE608E007F4972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0A56E427CE608E007F4972 /* CookBookPetelina WatchKit Extension */;
+			targetProxy = 3F0A56E727CE608E007F4972 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F0A56DC27CE608D007F4972 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0A56DD27CE608D007F4972 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F0A56F627CE608F007F4972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F0A56F727CE608F007F4972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0A56F927CE608F007F4972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CookBookPetelina WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CookBookPetelina WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = skvortsova.CookBookPetelina.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3F0A56FA27CE608F007F4972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CookBookPetelina WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CookBookPetelina WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = skvortsova.CookBookPetelina.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3F0A56FD27CE608F007F4972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = CookBookPetelina_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "CookBookPetelina WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = skvortsova.CookBookPetelina.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3F0A56FE27CE608F007F4972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = CookBookPetelina_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "CookBookPetelina WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = skvortsova.CookBookPetelina.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3F0A570127CE608F007F4972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = skvortsova.CookBookPetelina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3F0A570227CE608F007F4972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = skvortsova.CookBookPetelina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0A56D027CE608C007F4972 /* Build configuration list for PBXProject "CookBookPetelina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0A56F627CE608F007F4972 /* Debug */,
+				3F0A56F727CE608F007F4972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0A56F827CE608F007F4972 /* Build configuration list for PBXNativeTarget "CookBookPetelina WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0A56F927CE608F007F4972 /* Debug */,
+				3F0A56FA27CE608F007F4972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0A56FC27CE608F007F4972 /* Build configuration list for PBXNativeTarget "CookBookPetelina WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0A56FD27CE608F007F4972 /* Debug */,
+				3F0A56FE27CE608F007F4972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0A570027CE608F007F4972 /* Build configuration list for PBXNativeTarget "CookBookPetelina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0A570127CE608F007F4972 /* Debug */,
+				3F0A570227CE608F007F4972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0A56CD27CE608C007F4972 /* Project object */;
+}
